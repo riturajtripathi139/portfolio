@@ -12,10 +12,12 @@ check.addEventListener('click', () => {
     if (checks == 0){
        body.style.backgroundColor = "#2b2b2b"
        foot.style.backgroundColor = "#2b2b2b"
+        navLinks.style.backgroundColor = "#101010"
        checks = 1
     } else {
         body.style.backgroundColor = "#eaeaea"
         foot.style.backgroundColor = "#ebf2fa"
+        navLinks.style.backgroundColor = "white"
         checks = 0
     }
    })
